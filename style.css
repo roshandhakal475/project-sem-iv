@@ -54,8 +54,20 @@ button.normal{
   border: none;
   outline: none;
   transition: 0.3s;
-
 }
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #ffffff;
+  background-color:transparent;
+  
+  cursor: pointer;
+  border: 1px solid #e3ffe4;
+  outline: none;
+  transition: 0.3s;
+}
+
 
 body{
   width: 100%
@@ -312,6 +324,7 @@ border-radius: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background-color:rgb(244, 74, 108);
   width: 100% ;
   height: 40vh;
@@ -335,7 +348,76 @@ border-radius: 20px;
   color:#000000;
 }
 
+#sm-banner{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
+}
+
+#sm-banner .banner-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+  background-image: url("accessories/crazydeals.jpg");
+  width: 580px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner .banner-box2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+  background-image: url("accessories/winterspring.jpg");
+  width: 580px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#sm-banner h4{
+  color: #033232;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2{
+  color: #0cb6b6;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span{
+  color: rgb(5, 5, 5);
+  font-size: 10px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+  background: #4CAF50;
+  border: 1px solid #4CAF50;
+}
+
+#banner3 .banner-box{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+  background-image: url("accessories/seasonal.jpg");
+  width: 580px ;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
 
 
 /* 
